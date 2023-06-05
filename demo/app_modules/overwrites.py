@@ -41,8 +41,8 @@ def postprocess(
     return temp
 
 
-with open("./assets/custom.js", "r", encoding="utf-8") as f, open(
-    "./assets/Kelpy-Codos.js", "r", encoding="utf-8"
+with open("/kaggle/input/blaize/demo/assets/custom.js", "r", encoding="utf-8") as f, open(
+    "/kaggle/input/blaize/demo/assets/Kelpy-Codos.js", "r", encoding="utf-8"
 ) as f2:
     customJS = f.read()
     kelpyCodos = f2.read()
